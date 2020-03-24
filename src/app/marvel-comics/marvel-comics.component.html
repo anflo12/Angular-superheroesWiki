@@ -1,0 +1,11 @@
+<div class="container">
+    <div fxFlex fxLayout="column">
+        <div fxLayout="row wrap">
+            <div fxFlex="25" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column" *ngFor="let character of superheroesMarvel" style=" padding: 5px; ">
+
+                <app-character [character]="character"></app-character>
+
+            </div>
+        </div>
+    </div>
+</div>

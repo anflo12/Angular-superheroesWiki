@@ -1,0 +1,9 @@
+<mat-card>
+    <img mat-card-image src="{{character.images.md}}" alt="img">
+    <mat-card-title>
+        {{character.name}}
+    </mat-card-title>
+    <mat-card-footer>
+        <button class=" ml-3 mb-5" mat-flat-button color="primary" (click)="see_biography(character.id)">Detalles</button>
+    </mat-card-footer>
+</mat-card>
