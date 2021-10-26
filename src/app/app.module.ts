@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: "dc", component: DcComicsComponent },
   { path: "marvel", component: MarvelComicsComponent },
   { path: "biography/:id", component: BiographyComponent },
-  { path: "", component: HomeComponent }
+  { path: "/", component: HomeComponent }
 ];
 
 @NgModule({
